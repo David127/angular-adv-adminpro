@@ -23,7 +23,6 @@ export class SidebarComponent {
     private usuarioService: UsuarioService
   ) {
     this.menuItems = this.sidebarService.menu;
-    console.log(this.menuItems);
     this.usuario = usuarioService.usuario;
   }
 
